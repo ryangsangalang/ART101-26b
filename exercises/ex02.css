@@ -1,0 +1,27 @@
+p { color: blueviolet; font-size: large; font-weight: bold}
+
+p strong {font-weight: normal}
+
+li { text-align: center; }
+
+html { font-family: sans-serif; background-color:pink; } 
+
+span { background-color: azure;}
+
+
+/* select all html tags that have a class highlight */
+.highlight_01 {background-color: azure;}
+
+.highlight_02 {background-color: orange;}
+
+.highlight_03 {background-color: greenyellow;}
+
+#pug-small { width: 50px }
+
+#pug-medium { width: 99px }
+
+#pug-huge { width: 150px }
+
+.test-div { background: lemonchiffon; margin: 30px; padding: 40px; }
+
+.my-flex { display: flex; }
