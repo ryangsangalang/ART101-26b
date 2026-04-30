@@ -12,23 +12,29 @@
 <body>
     <div class="top">
 
-<p><img src="character.jpg" class="character"></p>
+        <p><img src="character.jpg" class="character"></p>
 
-        <p>somehow, you find yourself in this damp wood, shrouded in fog. your phone is dead, you have no flashlight,and
-            your pants are wet.
+        <p>somehow, you find yourself in this damp wood, shrouded in fog.
             for some reason, you cannot shake the feeling of eyes on you and an alarming sense of urgency to find your
             way
             out of these woods.
 
     </div>
     </p>
-    <p><img src="deadphone.png" class="phone"></p>
+
     <p><em><strong>what will you do?</strong></em></p>
 
-    <p class="action"> -->  
-    <button id="needy-button">walk forward</button></p>
+    <p class="action"> -->
+        <button id="check-pockets">check pockets</button>
+    </p>
 
-    
+    <p><img src="deadphone.png" class="phone"></p>
+
+    <p class="action"> -->
+        <button id="walky">walk forward</button>
+    </p>
+
+
 
 
     <p>You step forward, carefully watching your feet as thick foliage watches for a chance to trip you up. Right
@@ -36,7 +42,15 @@
         a rustling ahead grabs your attention.</p>
     <p><img src="roots.jpg" class="roots"></p>
 
-    <p>The rustling stops and it becomes too quiet. As your eyes take in as much information as they can in the dim
+    <p>The rustling stops and it becomes too quiet. </p>
+
+    <p class="action"> -->
+        <button id="left-look">look left</button>
+
+    <p class="action"> -->
+        <button id="right-look">look right</button>
+
+    <p>As your eyes take in as much information as they can in the dim
         light, a figure becomes recognizable. </p>
 
     <p>. . . . .</p>
@@ -90,7 +104,7 @@
 
 
     <div id="environment-output"></div>
-    
+
 </body>
 
 </html>

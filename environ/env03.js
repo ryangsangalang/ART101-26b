@@ -10,15 +10,29 @@ let mainEntity = {
     isWatching: true,
     odor: "metallic"
 };
-
 let count = 0;
 
-$("#needy-button").click(function () {
+
+$("#check-pockets").click(function () {
+    count = count + 1;
+    colorCount = count - 1;
+
+    $("#check-pockets").html("you emptied your pockets");
+
+    if (count > 0) {
+        $("#check-pockets").after
+            (" --> just a broken iphone.");
+
+    }
+
+});
+
+$("#walky").click(function () {
 
     count = count + 1;
     colorCount = count - 1;
 
-    $("#needy-button").html("steps: " + count);
+    $("#walky").html("steps: " + count);
 
     if (count == 15) {
         count = 0;
@@ -26,12 +40,47 @@ $("#needy-button").click(function () {
     }
 
     if (count == 5) {
-        $("#needy-button").after(" wait... ");
-        }
+        $("#walky").after(" wait... ");
+    }
     else if (count > 10) {
-         $("#needy-button").after(" stop.");
+        $("#walky").after(" stop.");
+    }
+
+});
+
+$("#left-look").click(function () {
+
+    count = count + 1;
+    colorCount = count - 1;
+
+    $("#left-look").html("you looked left");
+
+    if (count == 1) {
+        count = 0;
+        console.log("good choice");
+    }
+
+    if (count == 1) {
+        $("#left-look").after(" you looked left.");
+    }
+
+ });
+
+$("#right-look").click(function () {
+
+        count = count + 1;
+        colorCount = count - 1;
+
+        $("#right-look").html("you looked right and returned your gaze forward.");
+
+        if (count == 1) {
+            count = 0;
+            console.log("whatever choice");
         }
 
+        if (count == 1) {
+            $("#right-look").after(" you looked right.");
+        }
 
 
     });
