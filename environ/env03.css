@@ -1,0 +1,55 @@
+ body {
+     background-image: url("scary-forest.jpg")
+ }
+
+ p {
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+     padding: 20px;
+ }
+
+ .scary {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+ }
+
+
+ .phone {
+     display: block;
+     margin: auto;
+     width: 50;
+ }
+
+ .scream {
+     display: flexbox;
+ }
+
+ .roots {
+     display: block;
+     margin: auto;
+     width: 50%;
+ }
+
+ .top {
+     display: flex;
+ }
+
+ .character {
+     display: block;
+     margin: auto;
+     width: 200;
+
+ }
+
+ .action {
+    text-indent: 10%;
+
+ }
+
+ .highlight01 {
+    background-color: black;
+ }
+
+ 
