@@ -64,24 +64,37 @@ $("#left-look").click(function () {
         $("#left-look").after(" you looked left.");
     }
 
- });
+});
 
 $("#right-look").click(function () {
 
-        count = count + 1;
-        colorCount = count - 1;
+    count = count + 1;
+    colorCount = count - 1;
 
-        $("#right-look").html("you looked right and returned your gaze forward.");
+    $("#right-look").html("you looked right and returned your gaze forward.");
 
-        if (count == 1) {
-            count = 0;
-            console.log("whatever choice");
-        }
+    if (count == 1) {
+        count = 0;
+        console.log("whatever choice");
+    }
 
-        if (count == 1) {
-            $("#right-look").after(" you looked right.");
-        }
+    if (count == 1) {
+        $("#right-look").after(" you looked right.");
+    }
 
 
-    });
+});
 
+
+function saySomething(words) {
+    let userWords = prompt("It's listening.");
+    if (userWords == words) {
+        $("#output").html("It doesn't matter.");
+    } else {
+        $("#output").html("It doesn't want to hear it.");
+    }
+}
+
+$("#speak").click(function () {
+    saySomething("poop");
+});
