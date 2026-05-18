@@ -51,3 +51,12 @@
  .highlight01 {
     background-color: black;
  }
+
+ .hide {
+    display: none;
+    color: white;
+}
+.myDIV:hover + .hide {
+    display: block;
+    
+}
