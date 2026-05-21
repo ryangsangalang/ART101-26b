@@ -92,6 +92,7 @@ function saySomething(words) {
         $("#output").html("It doesn't matter.");
     } else {
         $("#output").html("It doesn't want to hear it.");
+
     }
 }
 
@@ -105,3 +106,4 @@ $(document).ready(function () {
     });
 });
 
+// things to do: fix font colors for jquery and make the jumpscare a block of text 

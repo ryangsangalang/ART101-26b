@@ -60,3 +60,19 @@
     display: block;
     
 }
+
+
+#output {
+    color: white;
+     font-family: 'Courier New', Courier, monospace;;
+}
+
+.myDIV {
+    color: white;
+     font-family: 'Courier New', Courier, monospace;;
+}
+/* #white {
+    background-color: white;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 20px;   
+} */
